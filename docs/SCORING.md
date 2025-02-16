@@ -1,7 +1,3 @@
-Below is a detailed example of a **SCORING.md** file that explains the marking strategy for your Simple Test. You can include this file in your open-source repository to guide contributors and users on how to calculate scores, interpret results, and suggest career paths based on the test.
-
----
-
 # Simple Test Scoring Strategy
 
 ## Overview
