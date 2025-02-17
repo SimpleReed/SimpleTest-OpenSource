@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  header h1 {
+    font-weight: 700;
+  }
+  
+  .question-block {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .question-block p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .option-label {
+    margin-left: 0.5rem;
+  }
+  
+  .progress {
+    height: 25px;
+  }
+  
+  .progress-bar {
+    font-weight: bold;
+  }
+  
+  .nav-btns {
+    margin-top: 1rem;
+  }
+  
+  .category-header, .subcategory-header {
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 0.5rem;
+  }
+  
+  .subcategory-header {
+    color: #007bff;
+  }
+  
