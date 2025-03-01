@@ -284,3 +284,127 @@ header {
     font-size: 1.25rem;
   }
 }
+
+/* Founder's Note Modal Styles - comment below to remove founder's note*/
+.modal-xl {
+  max-width: 1140px;
+}
+
+.founder-sidebar {
+  position: relative;
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  border-right: 1px solid rgba(0,0,0,0.05);
+}
+
+.founder-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.quote-container {
+  max-width: 300px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.7);
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.founders-story {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #343a40;
+  scrollbar-width: thin;
+}
+
+.founders-story::-webkit-scrollbar {
+  width: 6px;
+}
+
+.founders-story::-webkit-scrollbar-thumb {
+  background-color: rgba(67, 97, 238, 0.2);
+  border-radius: 3px;
+}
+
+.founders-story::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.02);
+}
+
+.founders-story p.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #4361ee;
+}
+
+.mission-highlight {
+  background: linear-gradient(145deg, rgba(67, 97, 238, 0.05), rgba(255,255,255,0.9)) !important;
+  border-left: 4px solid var(--primary);
+}
+
+.badge-primary {
+  background-color: rgba(67, 97, 238, 0.1);
+  color: #4361ee;
+  font-weight: 600;
+  padding: 0.35em 0.65em;
+  border-radius: 4px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  .founder-sidebar {
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 2rem 1rem;
+  }
+  
+  .founder-image {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .founders-story {
+    max-height: 50vh;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .founder-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .stat-number {
+    font-size: 1.5rem;
+  }
+  
+  .modal-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .modal-footer a {
+    margin-bottom: 1rem;
+  }
+}
