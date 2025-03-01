@@ -1,7 +1,7 @@
 # SIMPLE Test - Open Source Career Assessment for Indian Students
 
 [![License: CC0](https://img.shields.io/badge/License-CC0-red.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available%20Now-brightgreen)](https://simplereed.github.io/SimpleTest-OpenSource/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available%20Now-brightgreen)](https://simplereed.com)
 
 <img src="https://github.com/Simplereed/SimpleTest-OpenSource/blob/main/logo.jpg?raw=true" alt="SIMPLE Test Logo" style="border-radius:2px; margin:2px 0; width:150px; height:auto;">
 
@@ -11,7 +11,7 @@
 > 
 > Over 5,000 students later, SIMPLE Test continues to evolve - now combining traditional career theory with modern AI-era skills assessment. This isn't just another quiz; it's a community-powered tool that grows smarter with every contribution. Join us in making career guidance accessible and relevant for every Indian student.
 > 
-> *- Rishi Dixit, Founder @ Simplereed*
+> *- Rishi Dixit, Founder @ SimpleReed*
 
 ## 🌟 Why SIMPLE Test?
 
@@ -35,7 +35,7 @@ Most career assessments in India suffer from:
 ## 🚀 Getting Started
 
 ### Live Demo
-➡️ **Take the Test Now**: [https://simplereed.github.io/SimpleTest-OpenSource/](https://simplereed.github.io/SimpleTest-OpenSource/)
+➡️ **Take the Test Now**: [simplereed.com](https://simplereed.com)
 
 ### For Students
 1. Visit demo link
@@ -99,9 +99,6 @@ npm start
 Released under [Creative Commons CC0](LICENSE) - completely free for educational and commercial use.
 
 ---
-
-**Powered by AIYOES**  
-*Every contribution helps students make better career choices*
 
 ## Acknowledgements
 
