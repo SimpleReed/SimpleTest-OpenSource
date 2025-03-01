@@ -48,9 +48,22 @@ const categoryNames = {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
-  showLoading(true);
-  
-  initApp();
+  // Check if modal has been shown in this session - to remove founder note - comment lines 52 to 62 and 66
+  if (!sessionStorage.getItem('hasSeenFoundersNote')) {
+    // Show modal on first visit
+    $('#foundersNoteModal').modal('show');
+    
+    // Set session flag when modal is closed
+    $('#foundersNoteModal').on('hidden.bs.modal', function() {
+      sessionStorage.setItem('hasSeenFoundersNote', 'true');
+      showLoading(true);
+      initApp();
+    });
+  } else {
+    // Initialize directly if already seen
+    showLoading(true);
+    initApp();
+  }
   
   document.getElementById("start-test-btn").addEventListener("click", startTest);
   document.getElementById("next-btn").addEventListener("click", goToNextPage);
