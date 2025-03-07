@@ -392,11 +392,6 @@ async function submitTest() {
         <ul class="text-left">
           <li>At least ${Math.round(answeredCount/2)+1} serious students could have taken the test. 😒</li>
           <li>Your parents are one step closer to realizing that they have a dumb kid at home. 😢</li>
-          <li>You just prove what people have been saying: if you give something away for free, people won't respect it. 🤦‍♂️</li>
-          <li>Your performance is so bad, even the server is taking a nap! 😴</li>
-          <li>Your brain is buffering on 2G – even dial-up makes a comeback! 📞</li>
-          <li>Your focus is so lacking that even Shukla aunty's gossip grabs more attention! ☕</li>
-          <li>Your effort is so half-baked that even my ex put in more effort to save our relationship! 🎩</li>
         </ul>
       </div>
 
@@ -430,8 +425,8 @@ async function submitTest() {
           <button class="btn btn-outline-light me-3" onclick="window.location.reload()">
             <i class="fas fa-redo"></i> Try Properly
           </button>
-          <button class="btn btn-outline-warning" onclick="window.open('https://youtu.be/IxX_QHay02M')">
-            <i class="fab fa-youtube"></i> Watch Brainrot Videos
+          <button class="btn btn-outline-warning" onclick="window.open('https://youtu.be/znD5Y0HhK8o')">
+            <i class="fab fa-youtube"></i> Watch Random Video
           </button>
         </div>
         <p class="mt-3 small">We know which one you'll pick... 😏</p>
